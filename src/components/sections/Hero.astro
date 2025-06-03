@@ -112,12 +112,14 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
     text-wrap: balance;
   }
 
-  img {
+    img {
     aspect-ratio: 1 / 1;
     object-fit: cover;
     width: 128px;
-    border-radius: 16px;
+    border-radius: 50%; /* Rende l'immagine perfettamente circolare */
+    border: 2px solid #ccc; /* opzionale: bordo sottile attorno al cerchio */
   }
+
 
   span {
     color: #666;

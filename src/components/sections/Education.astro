@@ -4,10 +4,10 @@ import Section from "../Section.astro"
 import { education } from "@cv"
 ---
 
-<Section title="Educación">
+<Section title="Education">
   <ul>
     {
-      education.map(({ institution, startDate, endDate, area }) => {
+      education.map(({ institution, startDate, endDate, area, score, logo, studyType }) => {
         const startYear = new Date(startDate).getFullYear()
         const endYear =
           endDate != null ? new Date(endDate).getFullYear() : "Actual"
@@ -17,16 +17,17 @@ import { education } from "@cv"
           <li>
             <article>
               <header>
-                <div>
+                <div style="display: flex; align-items: center; gap: 8px;">
+                  {logo && <img src={logo} alt={`${institution} logo`} width="24" height="24" />}
                   <h3>{institution}</h3>
                 </div>
-
                 <time>{years}</time>
               </header>
 
               <footer>
-                <p>{area}</p>
-              </footer>
+              <p>{area}</p>
+              {score && <p><strong>Grade:</strong> <b>{score}</b></p>}
+            </footer>
             </article>
           </li>
         )

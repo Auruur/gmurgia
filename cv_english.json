@@ -1,68 +1,43 @@
 {
   "basics": {
-    "name": "Miguel Ángel Durán",
-    "label": "Full-Stack developer with more than 15 years of experience & development content creator",
-    "image": "/me.webp",
-    "email": "miduga@gmail.com",
-    "phone": "+34 688888888",
+    "name": "Giovanni Murgia",
+    "label": "Data Scientist & Cybersecurity Specialist",
+    "image": "/me2.png",
+    "email": "murzuvanne@gmail.com",
+    "phone": "",
     "url": "https://midu.dev",
-    "summary": "+15 years of experience as a web developer. Currently I am a content creator and development dommunicator. I live in Barcelona, Spain. I have worked in different environments: from accelerating the development of start-ups to leading teams in multinational companies.",
+    "summary": "Skilled Data Scientist with expertise in leading machine learning and deep learning frameworks, including Scikit-learn, PyTorch, and TensorFlow. Proficient in data manipulation and analysis using libraries such as Pandas and NumPy, as well as database management with SQL. Currently specializing in cybersecurity, with hands-on experience in web and network security, cryptography, vulnerability analysis, reverse engineering, and exploit development. Familiar with tools such as Burp Suite, Wireshark, IDA Pro, GDB, OpenSSL, and pwntools. Active CTF player.",
     "location": {
       "address": "",
-      "postalCode": "08820",
-      "city": "el Prat de Llobregat",
-      "countryCode": "ES",
-      "region": "Spain"
+      "postalCode": "",
+      "city": "Sardinia",
+      "countryCode": "IT",
+      "region": "Italy"
     },
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "midudev",
-        "url": "https://linkedin.com/in/midudev"
-      },
-      {
-        "network": "X",
-        "username": "midudev",
-        "url": "https://x.com/midudev"
+        "username": "giovanni-murgia-data02",
+        "url": "https://www.linkedin.com/in/giovanni-murgia-data02/"
       },
       {
         "network": "GitHub",
-        "username": "midudev",
-        "url": "https://github.com/midudev"
+        "username": "Auruur",
+        "url": "https://github.com/Auruur"
       }
     ]
   },
   "work": [
     {
-      "name": "midudev",
-      "position": "Web programming communicator",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2021-01-01",
-      "endDate": null,
-      "summary": "Most watched development streamer in Spanish on Twitch. +1 million followers across all my social networks. Recognised by Google, Microsoft and GitHub for my impact on the development community.",
+      "name": "University of Cagliari",
+      "position": "Research Intern",
+      "logo": "/unica.png",
+      "url": "http://www.unica.it/it",
+      "startDate": "2023-01-01",
+      "endDate": "2024-01-01",
+      "summary": "Co-authored a paper, presented at the RecSoGood 2024 workshop, held as part of ACM RecSys 2024. Worked on a recommender system for sustainable and healthy nutrition. Modeled a novel recipe-based knowledge graph. Developed a frontend platform for labeling ingredients.",
       "highlights": [
-        "Started the company"
-      ]
-    },
-    {
-      "name": "Adevinta",
-      "position": "Lead Frontend Architect",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2016-06-01",
-      "endDate": "2022-09-01",
-      "summary": "I led a technical convergence between different products and migrated from a monolithic architecture to a more flexible and optimised one. I fostered best practices and performance culture improvements, as well as rapid delivery of value to users.",
-      "highlights": [
-        "Started the company"
-      ]
-    },
-    {
-      "name": "Hubii",
-      "position": "Senior FrontEnd Developer",
-      "startDate": "2011-03-01",
-      "endDate": "2016-05-01",
-      "summary": "I developed a geolocated news platform and an API to consume the information. Scaled services to support the load of over hundreds of thousands of requests per day. Cut delivery times and deployments to production by half. Collaborated with Mozilla and Telefónica to develop the first FirefoxOS TV app.",
-      "highlights": [
-        "Started the company"
+        "ciao"
       ]
     }
   ],
@@ -78,15 +53,42 @@
     ]
   }],
   "education": [{
-    "institution": "Universitat Oberta de Catalunya",
-    "url": "https://www.uoc.edu/portal/es/index.html",
-    "area": "Software Engineer",
-    "studyType": "Bachelor",
-    "startDate": "2003-01-01",
-    "endDate": "2009-01-01",
-    "score": "4.0",
+    "institution": "Arqus European University Alliance",
+    "logo": "/arqus.png",
+    "url": "http://www.unica.it/it",
+    "area": "Master - International Cybersecurity & Cyberintelligence",
+    "studyType": "Master",
+    "startDate": "2025-01-01",
+    "endDate": null,
+    "score": "N/A",
     "courses": [
-      "DB1101 - Basic SQL"
+      ""
+    ]
+  },
+{
+    "institution": "University of Cagliari",
+    "logo": "/unica.png",
+    "url": "http://www.unica.it/it",
+    "area": "Bachelor - Applied Computer Science & Data Analytics",
+    "studyType": "Bachelor",
+    "startDate": "2021-01-01",
+    "endDate": "2024-01-01",
+    "score": "110/110 (Cum Laude)",
+    "courses": [
+      ""
+    ]
+  },
+{
+    "institution": "Liceo Scientifico Michelangelo",
+    "logo": "/mich.png",
+    "url": "https://www.liceomichelangelo.edu.it",
+    "area": "Highschool - Indirizzo Scientifico Tradizionale",
+    "studyType": "Highschool",
+    "startDate": "2016-01-01",
+    "endDate": "2021-01-01",
+    "score": "100/100",
+    "courses": [
+      ""
     ]
   }],
   "awards": [{
@@ -102,13 +104,61 @@
     "url": "https://certificate.com"
   }],
   "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "url": "https://publication.com",
-    "summary": "Description…"
+    "name": "Knowledge Data Modeling in Food Recommendation: A Case Study on Nutritional Values",
+    "publisher": "Springer Nature",
+    "releaseDate": "2024-01-01",
+    "url": "https://books.google.it/books?hl=en&lr=&id=D4NUEQAAQBAJ&oi=fnd&pg=PA52&dq=info:N7wUiUGltLMJ:scholar.google.com&ots=7VpWOS7Msv&sig=DHAPzLWR4voC-luU3v1KW-40hDs&redir_esc=y#v=onepage&q&f=false",
+    "summary": "Post-proceedings of RecSoGood 2024, ACM RecSys 2024 workshop."
   }],
   "skills": [
+    {
+      "name": "Python",
+      "level": "Master",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "C",
+      "level": "Master",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "C++",
+      "level": "Master",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "R",
+      "level": "Master",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "PHP",
+      "level": "Master",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "MySQL",
+      "level": "Master",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "NoSQL",
+      "level": "Master",
+      "keywords": [
+      ]
+    },
     {
       "name": "HTML",
       "level": "Master",
@@ -124,38 +174,69 @@
       ]
     },
     {
-      "name": "JavaScript",
+      "name": "PyTorch",
       "level": "Master",
       "keywords": [
-        "Web development", "Frontend", "Backend", "Fullstack"
       ]
     },
     {
-      "name": "Tailwind",
-      "level": "Advanced",
+      "name": "TensorFlow",
+      "level": "Master",
       "keywords": [
-        "Web development", "Frontend", "CSS Framework", "Diseño Responsive"
       ]
     },
     {
-      "name": "TypeScript",
-      "level": "Advanced",
+      "name": "Scikit-learn",
+      "level": "Master",
       "keywords": [
-        "Web development", "Frontend", "Backend", "JavaScript Superset"
       ]
     },
     {
-      "name": "Node",
-      "level": "Advanced",
+      "name": "Pandas",
+      "level": "Master",
       "keywords": [
-        "Web development", "Backend", "JavaScript", "Servidor"
       ]
     },
     {
-      "name": "MySQL",
-      "level": "Advanced",
+      "name": "Numpy",
+      "level": "Master",
       "keywords": [
-        "Bases de Datos", "SQL", "Database", "Backend"
+      ]
+    },
+    {
+      "name": "Burp",
+      "level": "Master",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Wireshark",
+      "level": "Master",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "IDA Pro",
+      "level": "Master",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "GDB",
+      "level": "Master",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "OpenSSL",
+      "level": "Master",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "pwntools",
+      "level": "Master",
+      "keywords": [
       ]
     },
     {
@@ -173,27 +254,23 @@
       ]
     },
     {
-      "name": "Next.js",
-      "level": "Advanced",
+      "name": "Latex",
+      "level": "Master",
       "keywords": [
-        "Web development", "Frontend", "React Framework", "SSR", "Static Generation"
-      ]
-    },
-    {
-      "name": "React",
-      "level": "Advanced",
-      "keywords": [
-        "Web development", "Frontend", "JavaScript Library", "UI"
       ]
     }
   ],
   "languages": [
     {
-      "language": "Spanish",
+      "language": "Italian",
       "fluency": "Native speaker"
     },
     {
       "language": "English",
+      "fluency": "Advanced"
+    },
+    {
+      "language": "Spanish",
       "fluency": "Advanced"
     }
   ],
@@ -210,66 +287,63 @@
   }],
   "projects": [
     {
-      "name": "mars.codes",
+      "name": "rl-maze-solver",
       "isActive": true,
-      "description": "Interactive story with programming challenges to travel to Mars",
+      "description": "Developed a reinforcement learning agent to solve randomly generated mazes of increasing size",
       "highlights": [
-        "Choose your own adventure",
-        "In progress"
+        "Reinforcement Learning",
+        "Unity",
+        "C#",
+        "MLAgents"
       ],
-      "url": "https://mars.codes"
+      "url": "https://github.com/Auruur/rl-maze-solver"
     },
     {
-      "name": "AdventJS",
+      "name": "gan-vs-data_augmentation",
       "isActive": true,
-      "description": "JavaScript programming challenges for every day of December until Christmas",
+      "description": "Analyzed oversampling approaches for data augmentation using generative adversarial networks and compared them to traditional techniques",
       "highlights": [
-        "+1 million visits",
-        "Multilanguage",
-        "JavaScript & TypeScript"
+        "Computer Vision",
+        "Python",
+        "TensorFlow"
       ],
-      "url": "https://advent.js/dev"
+      "url": "https://github.com/Auruur/gan-vs-data_augmentation"
     },
     {
-      "name": "Codember",
+      "name": "email-spamfilter",
       "isActive": true,
-      "description": "Interactive programming game with challenges and secrets",
+      "description": "Developed an e-mail spam filter that lets you choose between various feature engineering, data cleaning, architec- ture and normalization option",
       "highlights": [
-        "+2000 active users",
-        "Challenges for any language"
+        "Machine Learning",
+        "Python",
+        "Scikit-learn"
       ],
-      "url": "https://codember.dev"
+      "url": "https://github.com/Auruur/email-spamfilter"
     },
     {
-      "name": "codi.link",
+      "name": "hotel-webapp",
       "isActive": true,
-      "description": "Playground of HTML, CSS and JavaScript code for sharing",
+      "description": "Developed a hotel web application with complete functionality for user, room, and reservation management, connected to a relational database",
       "highlights": [
-        "100k monthly visit",
-        "Developed by the community"
+        "Full-stack developing",
+        "PHP",
+        "JavaScript",
+        "MySQL",
+        "HTML",
+        "CSS"
       ],
-      "url": "https://codi.link",
-      "github": "https://github.com/midudev/codi.link"
+      "url": "https://github.com/Auruur/hotel-webapp"
     },
     {
-      "name": "Pruebas Técnicas",
+      "name": "frogger-ncurses",
       "isActive": true,
-      "description": "List of technical tests of companies to practice programming",
+      "description": "Developed the well-known game Frogger in C utilizing a parallel programming paradigm with multi-threading and system pipeline",
       "highlights": [
-        "100% free",
-        "+500 community solutions"
+        "Parallel programming",
+        "C",
+        "ncurses"
       ],
-      "url": "https://pruebastecnicas.com",
-      "github": "https://github.com/midudev/pruebas-tecnicas"
-    },
-    {
-      "name": "miduConf",
-      "description": "Streaming programming conference for the Spanish-speaking community with top talks",
-      "highlights": [
-        "+15k tickets handed over",
-        "+50k live viewers"
-      ],
-      "url": "https://miduconf.com"
+      "url": "https://github.com/Auruur/frogger-ncurses"
     }
   ]
 }

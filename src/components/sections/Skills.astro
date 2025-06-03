@@ -16,6 +16,20 @@ import Swift from "@/icons/swift.astro"
 import SwiftUI from "@/icons/swiftui.astro"
 import Kotlin from "@/icons/kotlin.astro"
 import Flutter from "@/icons/flutter.astro"
+import Python from "@/icons/python.astro"
+import Cplusplus from "@/icons/cplusplus.astro"
+import C from "@/icons/c.astro"
+import R from "@/icons/r.astro"
+import PHP from "@/icons/php.astro"
+import NoSQL from "@/icons/mongo.astro"
+import PyTorch from "@/icons/pytorch.astro"
+import TensorFlow from "@/icons/tensorflow.astro"
+import Scikit from "@/icons/scikit.astro"
+import Pandas from "@/icons/pandas.astro"
+import Numpy from "@/icons/numpy.astro"
+import Latex from "@/icons/latex.astro"
+import Wireshark from "@/icons/wireshark.astro"
+import Burp from "@/icons/burp.astro"
 
 const SKILLS_ICONS: Record<string, any> = {
   HTML,
@@ -33,14 +47,28 @@ const SKILLS_ICONS: Record<string, any> = {
   SwiftUI,
   Kotlin,
   Flutter,
+  Python,
+  Cplusplus,
+  C,
+  R,
+  PHP,
+  NoSQL,
+  PyTorch,
+  TensorFlow,
+  Scikit,
+  Pandas,
+  Numpy,
+  Latex,
+  Wireshark,
+  Burp
 }
 ---
 
-<Section title="Habilidades">
+<Section title="Skills">
   <ul>
     {
       skills.map(({ name }) => {
-        const iconName = name === "Next.js" ? "Next" : name
+        const iconName = name === "Next.js" ? "Next" : name === "C++" ? "Cplusplus" : name === "Scikit-learn" ? "Scikit" : name
         const Icon = SKILLS_ICONS[iconName]
 
         return (

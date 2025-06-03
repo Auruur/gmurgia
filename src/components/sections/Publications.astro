@@ -1,0 +1,43 @@
+---
+// src/components/Publications.astro
+import Section from "../Section.astro"
+import { publications } from "@cv"
+---
+
+<Section title="Publications">
+  <ul>
+    {
+      publications.map(({ name, publisher, releaseDate, summary, url }) => (
+        <li>
+          <article>
+            <header>
+              <h3>
+                <a href={url} target="_blank">{name}</a>
+              </h3>
+              <time>{new Date(releaseDate).getFullYear()}</time>
+            </header>
+            <p><strong>{publisher}</strong> — {summary}</p>
+          </article>
+        </li>
+      ))
+    }
+  </ul>
+</Section>
+
+<style>
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  h3 {
+    font-weight: 500;
+    margin: 0;
+  }
+
+  time {
+    font-size: 0.85rem;
+    color: #555;
+  }
+</style>
