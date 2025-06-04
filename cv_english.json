@@ -105,10 +105,11 @@
   }],
   "publications": [{
     "name": "Knowledge Data Modeling in Food Recommendation: A Case Study on Nutritional Values",
+    "authors": "G. Balloccu, L. Boratto, G. Fenu, M. Marras, G. Medda, G. Murgia",
     "publisher": "Springer Nature",
     "releaseDate": "2024-01-01",
     "url": "https://books.google.it/books?hl=en&lr=&id=D4NUEQAAQBAJ&oi=fnd&pg=PA52&dq=info:N7wUiUGltLMJ:scholar.google.com&ots=7VpWOS7Msv&sig=DHAPzLWR4voC-luU3v1KW-40hDs&redir_esc=y#v=onepage&q&f=false",
-    "summary": "Post-proceedings of RecSoGood 2024, ACM RecSys 2024 workshop."
+    "summary": "Recommender Systems for Sustainability and Social Good: First International Workshop, RecSoGood 2024, Bari, Italy, October 18, 2024, Proceedings"
   }],
   "skills": [
     {

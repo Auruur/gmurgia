@@ -46,12 +46,14 @@ import { projects } from "@cv"
 
   article {
     border-radius: 8px;
-    border: 1px solid #f2f2f2;
-    gap: 16px;
+    border: 1px solid var(--border-color, #ddd);
+    background: var(--article-bg, #f9f9f9);
+    color: var(--text);
     display: flex;
     flex-direction: column;
     padding: 16px;
     height: 100%;
+    transition: background 0.2s ease, color 0.2s ease;
   }
 
   article header {
@@ -63,7 +65,7 @@ import { projects } from "@cv"
   }
 
   article a {
-    color: #111;
+    color: var(--text);
   }
 
   article a:hover {
@@ -74,14 +76,12 @@ import { projects } from "@cv"
     font-size: 0.75rem;
     line-height: 1.2rem;
     margin-bottom: 4px;
+    color: var(--subtle-text);
   }
 
   article h3 span {
-    color: rgb(0, 188, 47);
-    animation-name: flicker;
-    animation-duration: 3s;
-    animation-timing-function: ease-in;
-    animation-iteration-count: infinite;
+    color: var(--accent-green);
+    animation: flicker 3s ease-in infinite;
   }
 
   footer {
@@ -93,38 +93,28 @@ import { projects } from "@cv"
 
   footer span {
     border-radius: 6px;
-    background: #eee;
-    color: #444;
+    background: var(--highlight-bg);
+    color: var(--highlight-text);
     font-size: 0.6rem;
     font-weight: 500;
     padding: 0.2rem 0.6rem;
   }
 
-  .github-code-link {
-    margin-left: 5px;
-  }
-
   @keyframes flicker {
-    0% {
-      opacity: 1;
-    }
-    50% {
-      opacity: 0.25;
-    }
-    100% {
-      opacity: 1;
-    }
+    0% { opacity: 1; }
+    50% { opacity: 0.25; }
+    100% { opacity: 1; }
   }
 
   @media (width <= 700px) {
     ul {
-      margin-inline: 0px;
+      margin-inline: 0;
     }
 
     article {
       border: none;
-      box-shadow: 0 1px 1px #f2f2f2;
-      padding: 0 0 16px 0;
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+      padding: 0 0 16px;
     }
   }
 
@@ -134,3 +124,4 @@ import { projects } from "@cv"
     }
   }
 </style>
+

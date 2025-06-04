@@ -90,13 +90,18 @@ const SKILLS_ICONS: Record<string, any> = {
 
   li {
     align-items: center;
-    background: #eee;
+    background: var(--highlight-bg);
     border-radius: 6px;
-    color: black;
+    color: var(--highlight-text);
     display: flex;
     font-size: 0.8rem;
     font-weight: 500;
     gap: 4px;
     padding: 0.2rem 0.6rem;
+    transition: background 0.2s ease, color 0.2s ease;
+  }
+
+  svg {
+    fill: currentColor;
   }
 </style>

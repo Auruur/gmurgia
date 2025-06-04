@@ -6,12 +6,11 @@ interface Props {
 }
 
 const { title } = Astro.props
-
 const { image, summary, url } = basics
 ---
 
 <!doctype html>
-<html lang="es">
+<html lang="es" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <title>{title}</title>
@@ -33,12 +32,59 @@ const { image, summary, url } = basics
     <meta name="twitter:description" content={summary} />
     <meta name="twitter:image" content="" />
   </head>
+
+  <script is:inline>
+    const savedTheme = localStorage.getItem("theme");
+    if (savedTheme) {
+      document.documentElement.setAttribute("data-theme", savedTheme);
+    }
+  </script>
+  <script is:inline>
+    window.toggleTheme = () => {
+      const html = document.documentElement;
+      const current = html.getAttribute("data-theme");
+      const next = current === "dark" ? "light" : "dark";
+      html.setAttribute("data-theme", next);
+      localStorage.setItem("theme", next);
+    };
+  </script>
+
   <body>
     <slot />
   </body>
 </html>
 
 <style is:global>
+  :root {
+    --bg: #ffffff;
+    --text: #111111;
+    --subtle-text: #555;
+    --article-bg: #ffffff;
+    --highlight-bg: #eee;
+    --highlight-text: #222;
+    --border-color: #ddd;
+    --accent-green: rgb(0, 188, 47);
+    --button-bg: #f5f5f5;
+    --button-hover: #eaeaea;
+    --button-hover-border: #ccc;
+    --border: #ddd;
+  }
+
+  [data-theme="dark"] {
+    --bg: #1e1e1e;
+    --text: #f5f5f5;
+    --subtle-text: #bbb;
+    --article-bg: #2b2b2b;
+    --highlight-bg: #444;
+    --highlight-text: #fff;
+    --border-color: #444;
+    --accent-green: #96f2a3;
+    --button-bg: #333;
+    --button-hover: #444;
+    --button-hover-border: #555;
+    --border: #555;
+  }
+
   html {
     font-family:
       Menlo,
@@ -47,7 +93,8 @@ const { image, summary, url } = basics
       "Courier New",
       Courier,
       monospace;
-    background: #fff;
+    background: var(--bg);
+    color: var(--text);
     letter-spacing: -0.025rem;
   }
 
@@ -57,8 +104,15 @@ const { image, summary, url } = basics
     padding: 0;
   }
 
+  body {
+    background-color: var(--bg);
+    color: var(--text);
+    transition: background 0.3s ease, color 0.3s ease;
+  }
+
   a {
     text-decoration: none;
+    color: inherit;
   }
 
   ul {
@@ -73,10 +127,7 @@ const { image, summary, url } = basics
     box-sizing: border-box;
   }
 
-  h1,
-  h2,
-  h3,
-  h4 {
+  h1, h2, h3, h4 {
     margin: 0;
     font-family:
       system-ui,
@@ -90,10 +141,11 @@ const { image, summary, url } = basics
       "Open Sans",
       "Helvetica Neue",
       sans-serif;
+    color: var(--text);
   }
 
   p {
-    color: #666;
+    color: var(--text-muted);
     font-size: 0.9rem;
     line-height: 1.5;
     margin: 0;
